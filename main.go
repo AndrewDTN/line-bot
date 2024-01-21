@@ -6,12 +6,13 @@ import (
 	"net/http"
 
 	"github.com/line/line-bot-sdk-go/v7/linebot"
+	//"github.com/line/line-bot-sdk-go/v8/linebot"
 )
 
 func main() {
 	bot, err := linebot.New(
-		`把我換成 LINE Secret`,
-		`把我換成 LINE Token`,
+		`LINE Secret`,
+		`LINE Token`,
 	)
 	if err != nil {
 		log.Fatal(err)
